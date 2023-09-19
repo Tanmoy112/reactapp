@@ -76,7 +76,7 @@ function TableComp() {
               setpageData(pageData - 1);
             }
           }}
-          className="pagination"
+          className={pageData !== 1 ? "pagination" : ""}
           style={{
             fontSize: "30px",
             fontWeight: "500px",
@@ -97,7 +97,9 @@ function TableComp() {
               setpageData(pageData + 1);
             }
           }}
-          className="pagination"
+          className={
+            Math.floor(tableData.length / 10) !== pageData ? "pagination2" : ""
+          }
           style={{
             fontSize: "30px",
             fontWeight: "500px",

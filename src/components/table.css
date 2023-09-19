@@ -6,3 +6,19 @@
 .row {
   border-bottom: 1px solid black;
 }
+span.pagination {
+  transition: 0.7s;
+}
+span.pagination:hover {
+  height: 60px;
+  width: 100px;
+  background-color: rgb(117, 117, 243);
+}
+span.pagination2 {
+  transition: 0.7s;
+}
+span.pagination2:hover {
+  height: 60px;
+  width: 100px;
+  background-color: rgb(117, 117, 243);
+}
